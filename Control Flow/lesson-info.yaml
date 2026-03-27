@@ -1,0 +1,11 @@
+content:
+  - if as an Expression
+  - Absence of Ternary Operator
+  - Basic when as a switch replacement
+  - when as an Expression
+  - when with Type Checking (is)
+  - for Loop and Basic Ranges
+  - for Loop with until and step
+  - Reverse Iteration with downTo
+  - when with Ranges (in)
+  - Combined Task - Control Flow

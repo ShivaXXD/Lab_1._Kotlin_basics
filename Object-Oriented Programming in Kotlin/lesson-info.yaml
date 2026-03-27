@@ -1,0 +1,11 @@
+content:
+  - Classes and Primary Constructor
+  - Initialization Block (init)
+  - Secondary Constructor
+  - Properties and Custom Getter
+  - Custom Setter and Backing Field
+  - Data Classes
+  - The copy Method in Data Classes
+  - Sealed Classes
+  - Working with Sealed Classes and when
+  - Combined Task - Object-Oriented Programming

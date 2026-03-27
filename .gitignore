@@ -1,0 +1,82 @@
+# Project exclude paths
+/.gradle/
+/Basic Syntax/Absence of Semicolons/build/
+/Basic Syntax/Combined Task - Basic Syntax/build/
+/Basic Syntax/Declaring a Mutable Variable (var)/build/
+/Basic Syntax/Declaring an Immutable Variable (val)/build/
+/Basic Syntax/Everything is an Object/build/
+/Basic Syntax/String Templates - Expressions/build/
+/Basic Syntax/String Templates - Object Properties/build/
+/Basic Syntax/String Templates - Variables/build/
+/Basic Syntax/Type Inference/build/
+/Basic Syntax/Type Safety/build/
+/Collections and Extension Functions/Collection Call Chains/build/
+/Collections and Extension Functions/Combined Task - Collections and Extensions/build/
+/Collections and Extension Functions/Extension Functions/build/
+/Collections and Extension Functions/Extension Functions for Collections/build/
+/Collections and Extension Functions/Filtering Collections (filter)/build/
+/Collections and Extension Functions/Immutable Collections (List)/build/
+/Collections and Extension Functions/Iteration using forEach/build/
+/Collections and Extension Functions/Mutable Collections (MutableList)/build/
+/Collections and Extension Functions/Safe Collection Type Casting/build/
+/Collections and Extension Functions/Transforming Collections (map)/build/
+/Control Flow/Absence of Ternary Operator/build/
+/Control Flow/Basic when as a switch replacement/build/
+/Control Flow/Combined Task - Control Flow/build/
+/Control Flow/for Loop and Basic Ranges/build/
+/Control Flow/for Loop with until and step/build/
+/Control Flow/if as an Expression/build/
+/Control Flow/Reverse Iteration with downTo/build/
+/Control Flow/when as an Expression/build/
+/Control Flow/when with Ranges (in)/build/
+/Control Flow/when with Type Checking (is)/build/
+/Functions/Basic Function Declaration/build/
+/Functions/Combined Task - Functions/build/
+/Functions/Default Parameters/build/
+/Functions/Function with Arguments/build/
+/Functions/if in Single-Expression Functions/build/
+/Functions/Multiple Default Parameters/build/
+/Functions/Named Arguments/build/
+/Functions/Named Arguments and Default Parameters/build/
+/Functions/Replacing Method Overloading/build/
+/Functions/Single-Expression Functions/build/
+/Kotlin Syntax for Jetpack Compose/Accessing Context via this/build/
+/Kotlin Syntax for Jetpack Compose/Building Nested Tree Structures/build/
+/Kotlin Syntax for Jetpack Compose/Calling Methods on the it Parameter/build/
+/Kotlin Syntax for Jetpack Compose/Changing the Order of Arguments/build/
+/Kotlin Syntax for Jetpack Compose/Combining Named Arguments and Trailing Lambdas/build/
+/Kotlin Syntax for Jetpack Compose/Concept Synthesis - Extension Properties and Named Arguments/build/
+/Kotlin Syntax for Jetpack Compose/Concept Synthesis - Named Arguments and Trailing Lambdas/build/
+/Kotlin Syntax for Jetpack Compose/Concept Synthesis - Scopes and Trailing Lambdas/build/
+/Kotlin Syntax for Jetpack Compose/Default Parameters Instead of Method Overloading/build/
+/Kotlin Syntax for Jetpack Compose/Extension Properties for Numbers/build/
+/Kotlin Syntax for Jetpack Compose/Extension Properties for Other Types/build/
+/Kotlin Syntax for Jetpack Compose/Final Boss - Mini-Framework/build/
+/Kotlin Syntax for Jetpack Compose/Function Literals with Receiver (Scope)/build/
+/Kotlin Syntax for Jetpack Compose/Method Isolation via Different Scopes/build/
+/Kotlin Syntax for Jetpack Compose/Named Arguments as an Alternative to the Builder Pattern/build/
+/Kotlin Syntax for Jetpack Compose/Object Instantiation Without the new Keyword/build/
+/Kotlin Syntax for Jetpack Compose/Omitting Parentheses Completely/build/
+/Kotlin Syntax for Jetpack Compose/The Implicit it Parameter/build/
+/Kotlin Syntax for Jetpack Compose/Top-Level Functions and PascalCase Convention/build/
+/Kotlin Syntax for Jetpack Compose/Trailing Lambdas/build/
+/Object-Oriented Programming in Kotlin/Classes and Primary Constructor/build/
+/Object-Oriented Programming in Kotlin/Combined Task - Object-Oriented Programming/build/
+/Object-Oriented Programming in Kotlin/Custom Setter and Backing Field/build/
+/Object-Oriented Programming in Kotlin/Data Classes/build/
+/Object-Oriented Programming in Kotlin/Initialization Block (init)/build/
+/Object-Oriented Programming in Kotlin/Properties and Custom Getter/build/
+/Object-Oriented Programming in Kotlin/Sealed Classes/build/
+/Object-Oriented Programming in Kotlin/Secondary Constructor/build/
+/Object-Oriented Programming in Kotlin/The copy Method in Data Classes/build/
+/Object-Oriented Programming in Kotlin/Working with Sealed Classes and when/build/
+/Type System and Null Safety/Combined Task - Null Safety/build/
+/Type System and Null Safety/Combining Safe Call and Elvis Operators/build/
+/Type System and Null Safety/Elvis Operator/build/
+/Type System and Null Safety/Elvis Operator for Throwing Exceptions/build/
+/Type System and Null Safety/Non-Nullable Types/build/
+/Type System and Null Safety/Not-Null Assertion Operator/build/
+/Type System and Null Safety/Nullable Types/build/
+/Type System and Null Safety/Safe Call Chains/build/
+/Type System and Null Safety/Safe Call Operator/build/
+/Type System and Null Safety/Smart Casts/build/

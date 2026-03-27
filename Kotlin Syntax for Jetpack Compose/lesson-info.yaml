@@ -1,0 +1,21 @@
+content:
+  - Top-Level Functions and PascalCase Convention
+  - Object Instantiation Without the new Keyword
+  - Named Arguments as an Alternative to the Builder Pattern
+  - Changing the Order of Arguments
+  - Default Parameters Instead of Method Overloading
+  - Trailing Lambdas
+  - Combining Named Arguments and Trailing Lambdas
+  - Omitting Parentheses Completely
+  - Building Nested Tree Structures
+  - The Implicit it Parameter
+  - Calling Methods on the it Parameter
+  - Function Literals with Receiver (Scope)
+  - Accessing Context via this
+  - Method Isolation via Different Scopes
+  - Extension Properties for Numbers
+  - Extension Properties for Other Types
+  - Concept Synthesis - Extension Properties and Named Arguments
+  - Concept Synthesis - Scopes and Trailing Lambdas
+  - Concept Synthesis - Named Arguments and Trailing Lambdas
+  - Final Boss - Mini-Framework

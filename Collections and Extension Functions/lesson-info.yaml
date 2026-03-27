@@ -1,0 +1,11 @@
+content:
+  - Immutable Collections (List)
+  - Mutable Collections (MutableList)
+  - Safe Collection Type Casting
+  - Extension Functions
+  - Extension Functions for Collections
+  - Iteration using forEach
+  - Filtering Collections (filter)
+  - Transforming Collections (map)
+  - Collection Call Chains
+  - Combined Task - Collections and Extensions

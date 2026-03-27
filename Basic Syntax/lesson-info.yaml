@@ -1,0 +1,11 @@
+content:
+  - Declaring an Immutable Variable (val)
+  - Declaring a Mutable Variable (var)
+  - Type Inference
+  - Everything is an Object
+  - Absence of Semicolons
+  - String Templates - Variables
+  - String Templates - Expressions
+  - String Templates - Object Properties
+  - Type Safety
+  - Combined Task - Basic Syntax

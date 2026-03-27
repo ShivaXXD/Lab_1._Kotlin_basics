@@ -1,0 +1,32 @@
+type: marketplace
+title: Lab 1. Kotlin basics
+language: Ukrainian
+summary: "Лабораторна робота спрямована на практичне освоєння базового синтаксису\
+  \ та фундаментальних концепцій мови програмування Kotlin. Під час виконання завд\
+  ань студенти навчаться оголошувати змінні (val, var), працювати з основними типа\
+  ми даних і рядковими шаблонами, а також застосовувати керуючі конструкції (if, when)\
+  \ та цикли (for, while) для побудови простої алгоритмічної логіки. Головна мета\
+  \ - отримати початкові навички написання, компіляції та перевірки працездатності\
+  \ коду в середовищі розробки."
+programming_language: Kotlin
+content:
+  - Basic Syntax
+  - Type System and Null Safety
+  - Control Flow
+  - Functions
+  - Object-Oriented Programming in Kotlin
+  - Collections and Extension Functions
+  - Kotlin Syntax for Jetpack Compose
+additional_files:
+  - name: build.gradle
+  - name: settings.gradle
+  - name: gradle/wrapper/gradle-wrapper.properties
+  - name: Lab_1__Kotlin_basics.zip
+    is_binary: true
+mode: Study
+environment_settings:
+  jvm_language_level: JDK_17
+solutions_hidden: true
+vendor:
+  name: Mykola Hodovychenko
+yaml_version: 5
