@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Basic Syntax/Absence of Semicolons" />
+            <option value="$PROJECT_DIR$/Basic Syntax/Combined Task - Basic Syntax" />
+            <option value="$PROJECT_DIR$/Basic Syntax/Declaring a Mutable Variable (var)" />
+            <option value="$PROJECT_DIR$/Basic Syntax/Declaring an Immutable Variable (val)" />
+            <option value="$PROJECT_DIR$/Basic Syntax/Everything is an Object" />
+            <option value="$PROJECT_DIR$/Basic Syntax/String Templates - Expressions" />
+            <option value="$PROJECT_DIR$/Basic Syntax/String Templates - Object Properties" />
+            <option value="$PROJECT_DIR$/Basic Syntax/String Templates - Variables" />
+            <option value="$PROJECT_DIR$/Basic Syntax/Type Inference" />
+            <option value="$PROJECT_DIR$/Basic Syntax/Type Safety" />
+            <option value="$PROJECT_DIR$/Collections and Extension Functions/Collection Call Chains" />
+            <option value="$PROJECT_DIR$/Collections and Extension Functions/Combined Task - Collections and Extensions" />
+            <option value="$PROJECT_DIR$/Collections and Extension Functions/Extension Functions" />
+            <option value="$PROJECT_DIR$/Collections and Extension Functions/Extension Functions for Collections" />
+            <option value="$PROJECT_DIR$/Collections and Extension Functions/Filtering Collections (filter)" />
+            <option value="$PROJECT_DIR$/Collections and Extension Functions/Immutable Collections (List)" />
+            <option value="$PROJECT_DIR$/Collections and Extension Functions/Iteration using forEach" />
+            <option value="$PROJECT_DIR$/Collections and Extension Functions/Mutable Collections (MutableList)" />
+            <option value="$PROJECT_DIR$/Collections and Extension Functions/Safe Collection Type Casting" />
+            <option value="$PROJECT_DIR$/Collections and Extension Functions/Transforming Collections (map)" />
+            <option value="$PROJECT_DIR$/Control Flow/Absence of Ternary Operator" />
+            <option value="$PROJECT_DIR$/Control Flow/Basic when as a switch replacement" />
+            <option value="$PROJECT_DIR$/Control Flow/Combined Task - Control Flow" />
+            <option value="$PROJECT_DIR$/Control Flow/Reverse Iteration with downTo" />
+            <option value="$PROJECT_DIR$/Control Flow/for Loop and Basic Ranges" />
+            <option value="$PROJECT_DIR$/Control Flow/for Loop with until and step" />
+            <option value="$PROJECT_DIR$/Control Flow/if as an Expression" />
+            <option value="$PROJECT_DIR$/Control Flow/when as an Expression" />
+            <option value="$PROJECT_DIR$/Control Flow/when with Ranges (in)" />
+            <option value="$PROJECT_DIR$/Control Flow/when with Type Checking (is)" />
+            <option value="$PROJECT_DIR$/Functions/Basic Function Declaration" />
+            <option value="$PROJECT_DIR$/Functions/Combined Task - Functions" />
+            <option value="$PROJECT_DIR$/Functions/Default Parameters" />
+            <option value="$PROJECT_DIR$/Functions/Function with Arguments" />
+            <option value="$PROJECT_DIR$/Functions/Multiple Default Parameters" />
+            <option value="$PROJECT_DIR$/Functions/Named Arguments" />
+            <option value="$PROJECT_DIR$/Functions/Named Arguments and Default Parameters" />
+            <option value="$PROJECT_DIR$/Functions/Replacing Method Overloading" />
+            <option value="$PROJECT_DIR$/Functions/Single-Expression Functions" />
+            <option value="$PROJECT_DIR$/Functions/if in Single-Expression Functions" />
+            <option value="$PROJECT_DIR$/Kotlin Syntax for Jetpack Compose/Accessing Context via this" />
+            <option value="$PROJECT_DIR$/Kotlin Syntax for Jetpack Compose/Building Nested Tree Structures" />
+            <option value="$PROJECT_DIR$/Kotlin Syntax for Jetpack Compose/Calling Methods on the it Parameter" />
+            <option value="$PROJECT_DIR$/Kotlin Syntax for Jetpack Compose/Changing the Order of Arguments" />
+            <option value="$PROJECT_DIR$/Kotlin Syntax for Jetpack Compose/Combining Named Arguments and Trailing Lambdas" />
+            <option value="$PROJECT_DIR$/Kotlin Syntax for Jetpack Compose/Concept Synthesis - Extension Properties and Named Arguments" />
+            <option value="$PROJECT_DIR$/Kotlin Syntax for Jetpack Compose/Concept Synthesis - Named Arguments and Trailing Lambdas" />
+            <option value="$PROJECT_DIR$/Kotlin Syntax for Jetpack Compose/Concept Synthesis - Scopes and Trailing Lambdas" />
+            <option value="$PROJECT_DIR$/Kotlin Syntax for Jetpack Compose/Default Parameters Instead of Method Overloading" />
+            <option value="$PROJECT_DIR$/Kotlin Syntax for Jetpack Compose/Extension Properties for Numbers" />
+            <option value="$PROJECT_DIR$/Kotlin Syntax for Jetpack Compose/Extension Properties for Other Types" />
+            <option value="$PROJECT_DIR$/Kotlin Syntax for Jetpack Compose/Final Boss - Mini-Framework" />
+            <option value="$PROJECT_DIR$/Kotlin Syntax for Jetpack Compose/Function Literals with Receiver (Scope)" />
+            <option value="$PROJECT_DIR$/Kotlin Syntax for Jetpack Compose/Method Isolation via Different Scopes" />
+            <option value="$PROJECT_DIR$/Kotlin Syntax for Jetpack Compose/Named Arguments as an Alternative to the Builder Pattern" />
+            <option value="$PROJECT_DIR$/Kotlin Syntax for Jetpack Compose/Object Instantiation Without the new Keyword" />
+            <option value="$PROJECT_DIR$/Kotlin Syntax for Jetpack Compose/Omitting Parentheses Completely" />
+            <option value="$PROJECT_DIR$/Kotlin Syntax for Jetpack Compose/The Implicit it Parameter" />
+            <option value="$PROJECT_DIR$/Kotlin Syntax for Jetpack Compose/Top-Level Functions and PascalCase Convention" />
+            <option value="$PROJECT_DIR$/Kotlin Syntax for Jetpack Compose/Trailing Lambdas" />
+            <option value="$PROJECT_DIR$/Object-Oriented Programming in Kotlin/Classes and Primary Constructor" />
+            <option value="$PROJECT_DIR$/Object-Oriented Programming in Kotlin/Combined Task - Object-Oriented Programming" />
+            <option value="$PROJECT_DIR$/Object-Oriented Programming in Kotlin/Custom Setter and Backing Field" />
+            <option value="$PROJECT_DIR$/Object-Oriented Programming in Kotlin/Data Classes" />
+            <option value="$PROJECT_DIR$/Object-Oriented Programming in Kotlin/Initialization Block (init)" />
+            <option value="$PROJECT_DIR$/Object-Oriented Programming in Kotlin/Properties and Custom Getter" />
+            <option value="$PROJECT_DIR$/Object-Oriented Programming in Kotlin/Sealed Classes" />
+            <option value="$PROJECT_DIR$/Object-Oriented Programming in Kotlin/Secondary Constructor" />
+            <option value="$PROJECT_DIR$/Object-Oriented Programming in Kotlin/The copy Method in Data Classes" />
+            <option value="$PROJECT_DIR$/Object-Oriented Programming in Kotlin/Working with Sealed Classes and when" />
+            <option value="$PROJECT_DIR$/Type System and Null Safety/Combined Task - Null Safety" />
+            <option value="$PROJECT_DIR$/Type System and Null Safety/Combining Safe Call and Elvis Operators" />
+            <option value="$PROJECT_DIR$/Type System and Null Safety/Elvis Operator" />
+            <option value="$PROJECT_DIR$/Type System and Null Safety/Elvis Operator for Throwing Exceptions" />
+            <option value="$PROJECT_DIR$/Type System and Null Safety/Non-Nullable Types" />
+            <option value="$PROJECT_DIR$/Type System and Null Safety/Not-Null Assertion Operator" />
+            <option value="$PROJECT_DIR$/Type System and Null Safety/Nullable Types" />
+            <option value="$PROJECT_DIR$/Type System and Null Safety/Safe Call Chains" />
+            <option value="$PROJECT_DIR$/Type System and Null Safety/Safe Call Operator" />
+            <option value="$PROJECT_DIR$/Type System and Null Safety/Smart Casts" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
