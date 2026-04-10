@@ -26,92 +26,45 @@ fun ShoppingItemCard(
     onIncrement: (String) -> Unit,
     onDecrement: (String) -> Unit
 ) {
-    val isBought = item.isBought
-
     Card(
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(vertical = 6.dp)
-            .clickable { onToggle(item.id) },
-        shape = RoundedCornerShape(20.dp),
-        colors = CardDefaults.cardColors(
-            containerColor = if (isBought) Color(0xFFF8F9FA) else Color.White
-        ),
-        elevation = CardDefaults.cardElevation(
-            defaultElevation = if (isBought) 0.dp else 6.dp
-        )
+        modifier = Modifier.fillMaxWidth().padding(vertical = 6.dp),
+        shape = RoundedCornerShape(24.dp),
+        colors = CardDefaults.cardColors(containerColor = if (item.isBought) Color(0xFFF1F3F5) else Color.White),
+        elevation = CardDefaults.cardElevation(defaultElevation = if (item.isBought) 0.dp else 8.dp)
     ) {
         Row(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(16.dp),
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.SpaceBetween
+            modifier = Modifier.padding(16.dp),
+            verticalAlignment = Alignment.CenterVertically
         ) {
-            Row(
-                verticalAlignment = Alignment.CenterVertically,
-                modifier = Modifier.weight(1f)
+            Box(
+                modifier = Modifier.size(32.dp).clip(CircleShape)
+                    .background(if (item.isBought) Color(0xFF37B24D) else Color(0xFFE9ECEF))
+                    .clickable { onToggle(item.id) },
+                contentAlignment = Alignment.Center
             ) {
-                // Стилізований чекбокс
-                Box(
-                    modifier = Modifier
-                        .size(28.dp)
-                        .clip(CircleShape)
-                        .background(if (isBought) Color(0xFF4CAF50) else Color(0xFFEDF2F7)),
-                    contentAlignment = Alignment.Center
-                ) {
-                    if (isBought) {
-                        Icon(Icons.Rounded.Check, contentDescription = null, tint = Color.White, modifier = Modifier.size(18.dp))
-                    }
-                }
-
-                Text(
-                    text = item.name,
-                    modifier = Modifier.padding(start = 14.dp, end = 8.dp),
-                    color = if (isBought) Color(0xFFA0AEC0) else Color(0xFF2D3748),
-                    fontSize = 17.sp,
-                    fontWeight = if (isBought) FontWeight.Normal else FontWeight.Medium,
-                    textDecoration = if (isBought) TextDecoration.LineThrough else TextDecoration.None
-                )
+                if (item.isBought) Icon(Icons.Rounded.Check, null, tint = Color.White, modifier = Modifier.size(20.dp))
             }
 
-            if (!isBought) {
-                Row(
-                    verticalAlignment = Alignment.CenterVertically,
-                    modifier = Modifier
-                        .background(Color(0xFFF7FAFC), RoundedCornerShape(12.dp))
-                        .padding(horizontal = 4.dp, vertical = 2.dp)
-                ) {
-                    Text(
-                        text = "−",
-                        fontSize = 24.sp,
-                        color = Color(0xFF667EEA),
-                        modifier = Modifier
-                            .clickable { onDecrement(item.id) }
-                            .padding(horizontal = 12.dp)
-                    )
-                    Text(
-                        text = item.quantity.toString(),
-                        fontSize = 16.sp,
-                        fontWeight = FontWeight.Bold,
-                        color = Color(0xFF2D3748)
-                    )
-                    Text(
-                        text = "+",
-                        fontSize = 24.sp,
-                        color = Color(0xFF667EEA),
-                        modifier = Modifier
-                            .clickable { onIncrement(item.id) }
-                            .padding(horizontal = 12.dp)
-                    )
-                }
-            } else {
-                Text(
-                    text = "${item.quantity} шт",
-                    color = Color(0xFFA0AEC0),
-                    fontWeight = FontWeight.SemiBold,
-                    fontSize = 14.sp
-                )
+            Text(
+                text = item.name,
+                modifier = Modifier.padding(start = 16.dp).weight(1f),
+                color = if (item.isBought) Color(0xFFADB5BD) else Color(0xFF212529),
+                fontSize = 18.sp,
+                fontWeight = FontWeight.SemiBold,
+                textDecoration = if (item.isBought) TextDecoration.LineThrough else TextDecoration.None
+            )
+
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.background(Color(0xFFF8F9FA), RoundedCornerShape(16.dp)).padding(4.dp)
+            ) {
+                Text("−", fontSize = 20.sp, color = Color(0xFF4C6EF5),
+                    modifier = Modifier.clickable { onDecrement(item.id) }.padding(horizontal = 12.dp))
+
+                Text(item.quantity.toString(), fontWeight = FontWeight.Bold)
+
+                Text("+", fontSize = 20.sp, color = Color(0xFF4C6EF5),
+                    modifier = Modifier.clickable { onIncrement(item.id) }.padding(horizontal = 12.dp))
             }
         }
     }
